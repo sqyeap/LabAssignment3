@@ -1,0 +1,73 @@
+header {
+    text-align: left;
+    width: 100%;
+    padding: 32px;
+    color: white;
+    background-color: transparent;
+}
+
+body {
+    background: url(../assets/lightpurplesky.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 5px 20px;
+}
+
+.w3-card {
+    background-color: #e0dddd;
+    border-radius: 10px;
+    opacity: 100%;
+    width: 700px;
+}
+
+.w3-button {
+    padding: 10px 25px;
+}
+
+hr {
+    margin: 0em;
+    border-width: 2px;
+}
+
+.button {
+    font-size: 15px;
+    width: 150px;
+    height: 44px;
+    color: white;
+    background-color: #483D8B;
+    border: none;
+    border-radius: 22px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #8A2BE2;
+}
+
+.button:active {
+    background-color: lightgrey;
+    transition: none;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    color: lightgrey;
+    background-color: transparent;
+}
